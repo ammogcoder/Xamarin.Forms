@@ -42,7 +42,7 @@ namespace Xamarin.Forms.Controls
 				}
 			);
 
-			var borderRadiusContainer = new ViewContainer<ImageButton>(Test.ImageButton.CornerRadius,
+			var corderRadiusContainer = new ViewContainer<ImageButton>(Test.ImageButton.CornerRadius,
 				new ImageButton
 				{
 					Source = "oasissmall.jpg",
@@ -101,11 +101,12 @@ namespace Xamarin.Forms.Controls
 			Add(isLoadingContainer);
 			Add(isOpaqueContainer);
 			Add(sourceContainer);
+
 			Add(borderButtonContainer);
-			Add(borderRadiusContainer);
-			Add(borderWidthContainer);
+            Add(borderWidthContainer);
 			Add(clickedContainer);
-			Add(commandContainer);
+            Add(commandContainer);
+            Add(corderRadiusContainer);
 			Add(imageContainer);
 		}
 	}
